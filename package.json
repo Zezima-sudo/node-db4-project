@@ -1,0 +1,30 @@
+{
+  "name": "node-db4-project",
+  "version": "1.0.0",
+  "description": "Follow these steps to set up and work on your project:",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "server": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Zezima-sudo/node-db4-project.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Zezima-sudo/node-db4-project/issues"
+  },
+  "homepage": "https://github.com/Zezima-sudo/node-db4-project#readme",
+  "dependencies": {
+    "cleaner": "^2.0.0-alpha",
+    "express": "^4.17.1",
+    "helmet": "^4.1.1",
+    "knex": "^0.21.6",
+    "knex-cleaner": "^1.3.1",
+    "sqlite3": "^5.0.0"
+  }
+}
